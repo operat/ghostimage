@@ -1,0 +1,77 @@
+<!doctype html>
+<html id="top" lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>GhostImage, oh yeah!</title>
+   <meta name="description" content="A small script that adds ghost images to websites. Written in plain JavaScript; no dependencies, small size, easy integration.">
+   <link rel="author" href="inc/humans.txt">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400">
+   <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+   <link rel="stylesheet" href="inc/style.css">
+   <link rel="stylesheet" href="inc/ghostimage.min.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+   <link rel="manifest" href="img/favicons/manifest.json">
+   <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#219c5b">
+   <link rel="shortcut icon" href="img/favicons/favicon.ico">
+   <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+   <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+   <main class="main">
+      <div class="content">
+         <h1 class="content__title">GhostImage, oh yeah!</h1>
+
+         <p class="content__intro">
+            A small script that adds ghost images to websites. Written in plain JavaScript; no dependencies, small size, easy integration.
+         </p>
+
+         <p class="content__text">
+            A <span class="ghostimage__trigger" data-image="img/ghostimage-carina-herrmann.jpg">customer of mine</span> came up with the idea that it would be cool if some keywords could be linked to images that would be displayed to visitors as they moved their mouse over these words. Oh yeah, great idea, I said, locked me up in my room and <span class="ghostimage__trigger" data-image="img/ghostimage-death-to-stock-creative-03.jpg">tinkered the code</span>. It was fun. Since images are hidden, waiting for trigger events, to eventually appear and hover above the contents, I called it <span class="ghostimage__trigger" data-image="img/ghostimage-death-to-stock-lonely-commute-06.jpg">GhostImage</span>. Because sharing is fun too, I open sourced the code.
+         </p>
+
+         <p class="content__text">
+            Lorem ipsum dolor sit amet, <span class="ghostimage__trigger" data-image="img/ghostimage-death-to-stock-lonely-commute-01.jpg">consectetuer adipiscing</span> elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla <span class="ghostimage__trigger" data-image="img/ghostimage-death-to-stock-lonely-commute-08.jpg">consequat massa</span> quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+         </p>
+
+         <ul class="content__list">
+            <li class="content__list-item">
+               <a class="button button--download" href="https://github.com/operat/ghostimage/archive/master.zip">
+                  <i class="fa fa-download" aria-hidden="true"></i> Download
+               </a>
+            </li>
+
+            <li class="content__list-item">
+               <a class="button button--github" href="https://github.com/operat/ghostimage">
+                  <i class="fa fa-github" aria-hidden="true"></i> GitHub
+               </a>
+            </li>
+         </ul>
+
+         <footer class="content__footer">
+            Images courtesy of <a href="https://deathtothestockphoto.com/">Death to Stock</a>. Project maintained by <a href="https://www.operat.de/">Operat</a>.
+         </footer>
+      </div>
+   </main>
+
+   <script src="inc/ghostimage.min.js"></script>
+   <script src="inc/script.js"></script>
+   <script type='application/ld+json'>
+      {
+         "@context": "http://www.schema.org",
+         "@graph": [{
+            "@type": "WebPage",
+            "name": "GhostImage, oh yeah!",
+            "description": "A small script that adds ghost images to websites. Written in plain JavaScript; no dependencies, small size, easy integration.",
+            "inLanguage": "en",
+            "url": "https://operat.github.io/ghostimage"
+         }]
+      }
+   </script>
+</body>
+
+</html>

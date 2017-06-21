@@ -1,0 +1,118 @@
+/*
+ * Style
+ */
+
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+}
+
+body,
+html {
+   height: 100%;
+   width: 100%;
+   font-family: Lato, Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #171717;
+}
+
+a:link,
+a:visited {
+   color: #219c5b;
+}
+a:hover,
+a:active {
+   color: #45c381;
+}
+
+.main {
+   align-items: center;
+   display: flex;
+   min-height: 100%;
+   justify-content: center;
+   min-width: 100%;
+}
+
+.content {
+   box-sizing: border-box;
+   max-width: 900px;
+   padding: 1.5rem;
+}
+
+.content__title {
+   background-image: url('../img/ghostimage-logo.png');
+   background-repeat: no-repeat;
+   background-size: 43px;
+   font-size: 1.953rem;
+   font-weight: 400;
+   margin-bottom: 1rem;
+   padding-left: 52px;
+}
+
+.content__intro {
+   font-size: 1.25rem;
+   margin-bottom: 1rem;
+}
+
+.content__text:not(:last-child) {
+   margin-bottom: 1rem;
+}
+
+.content__list {
+   list-style-type: none;
+   display: flex;
+}
+.content__list:not(:last-child) {
+   margin-bottom: 1rem;
+}
+
+.content__list-item:not(:last-child) {
+   margin-right: 1rem;
+}
+
+.content__footer {
+   color: #999;
+   font-size: 0.8rem;
+}
+
+.button {
+   border-radius: 5px;
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   text-decoration: none;
+   transition: background-color 0.2s ease;
+   white-space: nowrap;
+}
+.button:link,
+.button:visited {
+   color: #fff;
+}
+.button:hover,
+.button:active {
+   color: #fff;
+}
+
+.button--download:link,
+.button--download:visited {
+   background-color: #219c5b;
+}
+.button--download:hover,
+.button--download:active {
+   background-color: #45c381;
+}
+
+.button--github:link,
+.button--github:visited {
+   background-color: #333;
+}
+.button--github:hover,
+.button--github:active {
+   background-color: #666;
+}
+
+.button .fa {
+   margin-right: 0.25rem;
+}

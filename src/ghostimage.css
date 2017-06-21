@@ -1,0 +1,53 @@
+/*!
+ * GhostImage v1.0
+ * MIT License
+ * https://operat.github.io/ghostimage
+ */
+
+.ghostimage {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   z-index: 30;
+}
+
+@media (min-device-width: 0px) {
+   .ghostimage {
+      height: 100%;
+      margin-top: -50%;
+      top: 25%;
+      width: 100%;
+   }
+}
+
+@media (min-width: 601px) {
+   .ghostimage {
+      height: 600px;
+      left: 50%;
+      margin-left: -300px;
+      margin-top: -300px;
+      top: 50%;
+      width: 600px;
+   }
+}
+
+.ghostimage--closed {
+   display:none;
+}
+
+.ghostimage__image {
+   box-shadow: 0px 5px 10px rgba(100,100,100,0.5);
+   max-height: 600px;
+   max-width: 600px;
+}
+
+.ghostimage__ghost {
+   cursor: pointer;
+   z-index: 1000;
+}
+
+.ghostimage__trigger {
+   background-color: #fffcc9;
+   border-bottom: 1px dashed #666;
+}
