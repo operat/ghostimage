@@ -25,7 +25,7 @@ Add the `ghostimage__trigger` class to an element, add a `data-image` attribute 
 
 ```html
 <!-- HTML -->
-<span class="ghostimage__trigger" data-image="path/to/image.xyz">My trigger</span>
+<a class="ghostimage__trigger" data-image="path/to/image.xyz">My trigger</a>
 ```
 
 ### 4. Initialize
