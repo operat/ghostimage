@@ -77,7 +77,7 @@ module.exports = function(grunt) {
          },
          build: {
             files: ['src/*', 'Gruntfile.js'],
-            tasks: ['uglify', 'cssmin']
+            tasks: ['uglify', 'cssmin', 'copy']
          },
          reload: {
             files: ['docs/**', '*.html']
