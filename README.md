@@ -63,7 +63,6 @@ ghostimage.init({
 ## Known Issues
 
 - When the GhostImage trigger is an inline element that breaks over multiple lines, the dynamically created ghost element covers the space of those lines and therefore may cover other trigger elements, which won't work properly, then.
-- The ghost images don't appear on touch devices. This is by design, as the trigger listens to `mouseover` events. No mouse, no `mouseover`, no triggering. A check library like [is.js](http://is.js.org/) can be used to disable GhostImage on touch devices.
 
 ## License
 

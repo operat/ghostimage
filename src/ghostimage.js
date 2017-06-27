@@ -1,5 +1,5 @@
 /*!
- * GhostImage v1.0
+ * GhostImage v1.1
  * MIT License
  * https://operat.github.io/ghostimage
  */
